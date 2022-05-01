@@ -1,0 +1,62 @@
+
+.main {
+    padding-bottom: 5em;
+}
+
+.post-body {
+    margin-top: 4em !important;
+}
+
+
+.nav {
+    font-size: 1em;
+    margin-top: 0.4em;
+}
+
+.home .poetry {
+    padding: 10em 1em;
+}
+
+.life {
+    color: #f37055;
+}
+.tech {
+    color: #a166ab;
+}
+.about {
+    color: #07b39b;
+}
+
+.menu-item {
+    .life, .tech, .about {
+        display: none;
+    }
+}
+
+@media (max-width: $maxWidth) {
+    .nav {
+        margin: 2em 0;
+    }
+
+    .menu-item {
+        .life, .tech, .about {
+            display: inline-block;
+        }
+    }
+    .menu-item-name {
+        font-size: 80%;
+    }
+
+    :root {
+        .theme-icon-light {
+            display: inline;
+        }
+    }
+
+    [data-theme="dark"] {
+        .theme-icon-dark {
+            display: inline !important;
+        }
+    }
+
+}
