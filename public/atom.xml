@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">Qingsdz</title>
+    <subtitle type="html">wqc的发疯日常</subtitle>
+    <updated>2022-05-02T01:04:30&#43;08:00</updated>
+    <id>https://example.com/</id>
+    <link rel="alternate" type="text/html" href="https://example.com/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <author>
+            <name>qingsdz</name>
+            <uri>https://example.com/</uri>
+            
+                <email>greenjujubewqc@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
+        <entry>
+            <title type="text">你好</title>
+            <link rel="alternate" type="text/html" href="https://example.com/life/first/" />
+            <id>https://example.com/life/first/</id>
+            <updated>2022-05-01T23:13:53&#43;08:00</updated>
+            <published>2022-05-01T20:44:53&#43;08:00</published>
+            <author>
+                    <name>qingsdz</name>
+                    <uri>https://ipv4.qingsdz.com/</uri>
+                    <email>greenjujubewqc@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">你好你好你好你好你好你好</summary>
+            
+                <content type="html">&lt;p&gt;你好你好你好你好你好你好&lt;/p&gt;
+</content>
+            
+            
+            
+                
+                
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://example.com/life/" term="life" label="life" />
+                        
+                    
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/%E9%97%B2/" term="闲" label="闲" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">First</title>
+            <link rel="alternate" type="text/html" href="https://example.com/tech/first/" />
+            <id>https://example.com/tech/first/</id>
+            <updated>2022-05-01T23:06:15&#43;08:00</updated>
+            <published>2022-05-01T20:44:41&#43;08:00</published>
+            <author>
+                    <name>qingsdz</name>
+                    <uri>https://ipv4.qingsdz.com/</uri>
+                    <email>greenjujubewqc@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">你好你好你好你好你好ahhahahha</summary>
+            
+                <content type="html">&lt;p&gt;你好你好你好你好你好ahhahahha&lt;/p&gt;
+</content>
+            
+            
+            
+                
+                
+                
+                    
+                    
+                    
+                        
+                            <category scheme="https://example.com/tech/" term="tech" label="tech" />
+                        
+                    
+                
+            
+            
+            
+                
+                    
+                
+            
+        </entry>
+    
+</feed>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Qingsdz</title>
+        <link>https://example.com/</link>
+        <description>wqc的发疯日常</description>
+        <generator>Hugo 0.98.0 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>greenjujubewqc@gmail.com (qingsdz)</managingEditor>
+        
+        
+            <webMaster>greenjujubewqc@gmail.com (qingsdz)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+        
+        <lastBuildDate>Mon, 02 May 2022 01:04:30 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
+        
+        
+            <item>
+                <title>你好</title>
+                <link>https://example.com/life/first/</link>
+                <guid isPermaLink="true">https://example.com/life/first/</guid>
+                <pubDate>Sun, 01 May 2022 20:44:53 &#43;0800</pubDate>
+                
+                    <author>greenjujubewqc@gmail.com (qingsdz)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;你好你好你好你好你好你好&lt;/p&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://example.com/life/">life</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/%E9%97%B2/">闲</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>First</title>
+                <link>https://example.com/tech/first/</link>
+                <guid isPermaLink="true">https://example.com/tech/first/</guid>
+                <pubDate>Sun, 01 May 2022 20:44:41 &#43;0800</pubDate>
+                
+                    <author>greenjujubewqc@gmail.com (qingsdz)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;你好你好你好你好你好ahhahahha&lt;/p&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://example.com/tech/">tech</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
