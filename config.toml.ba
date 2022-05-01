@@ -1,18 +1,45 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Qingsdz 
+reuixiy
+/
+io-oi.me
+Public
+Code
+Issues
+175
+Pull requests
+Actions
+Security
+Insights
+io-oi.me/config.toml
+@reuixiy
+reuixiy fix: macos safari mask color
+Latest commit 07e68d8 on 10 Dec 2021
+ History
+ 1 contributor
+1520 lines (1161 sloc)  40.2 KB
+   
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "Qingsdz"
+baseURL = "https://io-oi.me/"
+title = "reuixiy"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
-copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
+copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
 
 # 主题选择
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = ""
+newContentEditor = "gedit"
 
 # i18n
 defaultContentLanguage = "zh"
@@ -31,10 +58,10 @@ enableEmoji = false
 footnoteReturnLinkContents = "↩"
 
 # 是否启用 Git 版本信息
-enableGitInfo = false
+enableGitInfo = true
 
 # 是否生成 robots.txt 文件
-enableRobotsTXT = true
+enableRobotsTXT = false
 
 # 每一分页的文章数（仅对「文章摘要」首页布局有效）
 paginate = 5
@@ -46,12 +73,12 @@ uglyURLs = false
 
 # URL 结构
 [permalinks]
-#    categories = "/categories/:slug/"
+    # categories = "/categories/:slug/"
     tags = "/tags/:slug/"
 
 # 类别
 [taxonomies]
- #   category = "categories"
+    # category = "categories"
     tag = "tags"
 
 # 修改时间
@@ -81,7 +108,7 @@ uglyURLs = false
     [markup.highlight]
         codeFences = true
         guessSyntax = false
-        lineNos = true
+        lineNos = false
         lineNumbersInTable = true
         noClasses = false
     [markup.tableOfContents]
@@ -96,26 +123,26 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "qingsdz"
+    name = "reuixiy"
     # 邮箱
-    email = "greenjujubewqc@gmail.com"
+    email = "reuixiy@gmail.com"
     # 座右铭或简介
-    motto = "开卷"
+    motto = "Viva La Vida"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://ipv4.qingsdz.com/"
+    website = "https://io-oi.me/"
     # 推特
-
+    twitter = "reuixiy"
 
 # 相关文章
 [related]
     threshold = 80
     includeNewer = true
     toLower = true
-    [[related.indices]]
-        name = "categories"
-        weight = 100
+    # [[related.indices]]
+    #     name = "categories"
+    #     weight = 100
     [[related.indices]]
         name = "tags"
         weight = 95
@@ -161,7 +188,7 @@ uglyURLs = false
 
 # RSS & Atom 文章数限制
 [services.rss]
-    limit = -1
+    limit = 10
 
 
 
@@ -173,7 +200,7 @@ uglyURLs = false
 #               布局）的菜单栏
 # 2. home       首页的底部链接（适用于「诗意
 #               人生」和「视频片段」布局）
-# 3. socials    社交栏（关于面的极简页页脚）
+# 3. socials    社交栏（关于页面的极简页脚）
 # 4. links      链接栏（关于页面的极简页脚）
 
 # 菜单内的配置说明如下：
@@ -189,77 +216,121 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
-     #[[menu.main]]
+    # [[menu.main]]
     #     pageref = "/"
-    #     name = ""
-     #    weight = 1
-     #    pre = "internal"
-     #    post = "home"
+    #     name = "首页"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "home"
+    # [[menu.main]]
+    #     pageref = "/posts/"
+    #     name = "文章"
+    #     weight = 2
+    #     pre = "internal"
+    #     post = "archive"
+    # [[menu.main]]
+    #     pageref = "/categories/"
+    #     name = "分类"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "th"
+    # [[menu.main]]
+    #     pageref = "/tags/"
+    #     name = "标签"
+    #     weight = 4
+    #     pre = "internal"
+    #     post = "tags"
+    # [[menu.main]]
+    #     pageref = "/about/"
+    #     name = "关于"
+    #     weight = 5
+    #     pre = "internal"
+    #     post = "user-circle"
+    [[menu.main]]
+        weight = 6
+        identifier = "theme-switcher"
+    [[menu.main]]
+        weight = 7
+        identifier = "lang-switcher"
+    # [[menu.main]]
+    #     weight = 8
+    #     identifier = "search"
+    #     post = "search"
     [[menu.main]]
         pageref = "/life/"
-        name = "诗意"
+        name = "生活"
         weight = 1
         pre = "internal"
-    #    post = "archive"
+        post = "grav"
+        identifier = "life"
     [[menu.main]]
         pageref = "/tech/"
-        name = "远方"
+        name = "技术"
         weight = 2
         pre = "internal"
-    #    post = "archive"
-    #[[menu.main]]
-    #    pageref = "/categories/"
-    #    name = "分类"
-    #    weight = 3
-    #    pre = "internal"
-    #    post = "th"
-    #[[menu.main]]
-    #    pageref = "/tags/"
-    #    name = "标签"
-    #    weight = 4
-    #    pre = "internal"
-    #    post = "tags"
+        post = "wpexplorer"
+        identifier = "tech"
     [[menu.main]]
         pageref = "/about/"
         name = "关于"
         weight = 3
         pre = "internal"
-    #    post = "user-circle"
-    [[menu.main]]
-        weight = 4
-        identifier = "theme-switcher"
-    #[[menu.main]]
-    #    weight = 7
-    #    identifier = "lang-switcher"
-    # [[menu.main]]
-    #     weight = 8
-    #     identifier = "search"
-    #     post = "search"
+        post = "user-circle"
+        identifier = "about"
+
+    ## 首页的底部链接
+    # [[menu.home]]
+    #     pageref = "/life/"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "grav"
+    #     identifier = "life"
+    # [[menu.home]]
+    #     pageref = "/tech/"
+    #     weight = 2
+    #     pre = "internal"
+    #     post = "wpexplorer"
+    #     identifier = "tech"
+    # [[menu.home]]
+    #     pageref = "/about/"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "user-circle"
+    #     identifier = "about"
 
     ## 社交栏
     [[menu.socials]]
-        url = "https://github.com/Qingsdz"
+        url = "https://github.com/reuixiy"
         name = "GitHub"
-        weight = 2
-        pre = "external"
-    [[menu.socials]]
-        url = "https://weibo.com/u/6549672150"
-        name = "Weibo"
         weight = 1
         pre = "external"
     [[menu.socials]]
-        url = "http://wpa.qq.com/msgrd?v=3&uin=1839436665&site=qq&menu=yes"
-        name = "QQ"
+        url = "https://t.me/yixiuer"
+        name = "Telegram"
+        weight = 2
+        pre = "external"
+    [[menu.socials]]
+        url = "https://twitter.com/reuixiy"
+        name = "Twitter"
         weight = 3
         pre = "external"
 
     ## 链接栏
     [[menu.links]]
-        url = "/"
+        pageref = "/"
         name = "Home"
         weight = 1
         pre = "internal"
-
+    [[menu.links]]
+        pageref = "/tags/"
+        name = "Tags"
+        weight = 2
+        pre = "internal"
+    [[menu.links]]
+        pageref = "/coldplay/"
+        name = "Coldplay"
+        weight = 3
+        pre = "internal"
 
 
 
@@ -282,7 +353,7 @@ uglyURLs = false
     # 说明：对弹性布局的顶栏无效
 
     # 背景
-    headerBackground = "alpha(var(--color-bg), 0.6) linear-gradient(90deg, #00000000 0, #00000000 50%, #00000000 100%)"
+    headerBackground = "alpha(var(--color-bg), 0.8) linear-gradient(90deg, #f795331a 0, #f370551a 15%, #ef4e7b1a 30%, #a166ab1a 44%, #5073b81a 58%, #1098ad1a 72%, #07b39b1a 86%, #6dba821a 100%)"
     # 说明：https://developer.mozilla.org/zh-CN/docs/Web/CSS/background
 
     # 顶栏布局
@@ -292,7 +363,7 @@ uglyURLs = false
     # 在窄视图下隐藏菜单栏并显示一个按钮？
     enableNavToggle = true
 
-    navHeight = "10em"
+    navHeight = "9em"
     # 说明：菜单栏展开时的高度
 
 
@@ -309,7 +380,7 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1.5
+    siteBrandFontSize = 2
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -317,11 +388,11 @@ uglyURLs = false
     # 菜单栏
 
     # 是否开启
-    enableMenu = true
+    enableMenu = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = true
+    displayMenuInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
@@ -340,11 +411,11 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["Hello", "Loha"]
+    homePoetry = ["暗夜中", "渴望一束光的关怀", "在白天", "却更渴望黑洞的吞噬", "因为好奇心，想看看黑暗中有什么"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -369,16 +440,16 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "wqc的发疯日常"
+    siteDescription = "这是 reuixiy 的生活与技术博客！怎么记住 reuixiy 呢？其实就是「一休儿」的拼音，只不过顺序是从右往左……"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "2022-05-01T20:17:43+00:00"
+    siteCreatedTime = "2017-05-27T15:13:14+08:00"
     # 注意：请保持此格式，更改数字
 
     # 站点的推特帐号
-    siteTwitter = "qingsdz"
+    siteTwitter = "reuixiy"
     # 说明：用于 Twitter Cards
 
 
@@ -451,7 +522,7 @@ uglyURLs = false
     displayListTitle = true
 
     # 日期的格式
-    listDateFormat = "1 月 2 日"
+    listDateFormat = "2006-01-02"
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 日期的位置
@@ -459,7 +530,7 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = true
+    groupByMonth = false
 
     # 是否开启十二生肖
     chineseZodiac = true
@@ -467,7 +538,7 @@ uglyURLs = false
     # 是否翻译年份（仅对年份标题有效）
     i18nYear = false
     # 是否翻译月份（仅对月份标题有效）
-    i18nMonth = true
+    i18nMonth = false
 
 
     ######################################
@@ -557,7 +628,7 @@ uglyURLs = false
 
     themeColor = "#fff"
     themeColorDark = "#16171d"
-    safariMaskColor = "#2a6df4"
+    safariMaskColor = "#fff"
     msApplicationTileColor = "#fff"
 
 
@@ -584,7 +655,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = false
+    enableServiceWorker = true
 
 
     ######################################
@@ -696,7 +767,7 @@ uglyURLs = false
     trackingCodeType = "gtag"
     # 说明：gtag 或 analytics
 
-    trackingID = ""
+    trackingID = "UA-100434861-1"
 
 
     ######################################
@@ -764,7 +835,7 @@ uglyURLs = false
     # 文章元信息
 
     # 是否开启（全局设置）
-    enablePostMeta = true
+    enablePostMeta = false
     # 说明：文章的 Front Matter 中的 `meta`
     #      的优先级高于此处
 
@@ -864,7 +935,7 @@ uglyURLs = false
     #      默认值：§
 
     # 锚点图标
-    anchorIcon = "link"
+    anchorIcon = ""
     # 说明：留空（""）则回退到锚点符号
 
     # 是否开启锚点链接
@@ -915,10 +986,10 @@ uglyURLs = false
     #      `<video src="`
 
     # 是否开启
-    enableVideoHost = false
+    enableVideoHost = true
 
     # 视频外链地址
-    videoHostURL = "https://example.com/"
+    videoHostURL = "https://gateway.pinata.cloud/ipfs/"
 
 
     ######################################
@@ -928,7 +999,7 @@ uglyURLs = false
     squareBrackets = true
 
     # 替换脚注的返回链接中的文本为图标
-    footnoteReturnLinkIcon = "angle-up"
+    footnoteReturnLinkIcon = ""
     # 说明：如果不为空（""），则会用图标替换
     #      `footnoteReturnLinkContents`
 
@@ -943,7 +1014,7 @@ uglyURLs = false
 
     ######################################
     # 滚动条
-    customizeScrollbar = true
+    customizeScrollbar = false
 
 
     ######################################
@@ -958,13 +1029,13 @@ uglyURLs = false
     #      SVG，则可留空（""）品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = "'Sofia', cursive"
+    fontFamilySiteBrand = ""
     # 菜单栏
-    fontFamilyMenu = "'Sofia', 'Noto Serif SC', cursive"
+    fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Sofia', 'ZCOOL XiaoWei', cursive"
+    fontFamilyTitle = "'Noto Serif SC', 'Amstelvar', serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Noto Serif SC', 'Amstelvar', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
     fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
     # 引用
@@ -974,12 +1045,12 @@ uglyURLs = false
     # 说明文字
     fontFamilyCaption = ""
     # 页脚
-    fontFamilyFooter = ""
+    fontFamilyFooter = "'Source Code Pro', 'Noto Serif SC', monospace"
     # 主体
-    fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyBody = "'Amstelvar', 'Noto Serif SC', serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.geekzu.org/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Oleo+Script+Swash+Caps&family=Satisfy&family=Liu+Jian+Mao+Cao&family=Satisfy&family=Sofia&family=ZCOOL+XiaoWei&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel+Decorative:wght@700&display=swap"
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
@@ -1031,7 +1102,7 @@ uglyURLs = false
     ## 首字下沉
 
     # 是否开启（全局设置）
-    enableDropCap = false
+    enableDropCap = true
     # 说明：文章的 Front Matter 中的 `dropCap`
     #      的优先级高于此处
 
@@ -1103,7 +1174,7 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = false
+    enablePostGitInfo = true
 
     # 是否显示（全局设置）
     displayPostGitInfo = false
@@ -1111,9 +1182,9 @@ uglyURLs = false
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = ""
+    repoURL = "https://github.com/reuixiy/io-oi.me"
     # 编辑地址
-    repoEditURL = ""
+    repoEditURL = "https://github.com/reuixiy/io-oi.me/blob/master"
 
     # Git 的图标
     gitIcon = "code-branch"
@@ -1144,21 +1215,21 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
-    displayPostShare = true
+    displayPostShare = false
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
     displayShareOnText = false
 
-#    shareOnTwitter = true
-#    shareOnFacebook = true
-#    shareOnLinkedIn = true
-#    shareOnTelegram = true
+    shareOnTwitter = true
+    shareOnFacebook = true
+    shareOnLinkedIn = true
+    shareOnTelegram = true
     shareOnWeibo = true
-#    shareOnDouban = true
+    shareOnDouban = true
     shareOnQQ = true
     shareOnQzone = true
 
@@ -1169,10 +1240,10 @@ uglyURLs = false
     # 相关文章
 
     # 是否开启
-    enableRelatedPosts = true
+    enableRelatedPosts = false
 
     # 是否显示（全局设置）
-    displayRelatedPosts = true
+    displayRelatedPosts = false
     # 说明：文章的 Front Matter 中的 `related`
     #      的优先级高于此处
 
@@ -1204,7 +1275,7 @@ uglyURLs = false
     #      的是一篇更旧的文章。
 
     # 是否开启
-    enablePostNav = true
+    enablePostNav = false
 
     # 是否仅限于相同的文章分区
     postNavInSection = true
@@ -1228,13 +1299,13 @@ uglyURLs = false
     # 返回顶部按钮
 
     # 是否开启
-    enableBackToTop = true
+    enableBackToTop = false
 
     # 是否开启自动隐藏
     enableBackToTopAutoHide = true
 
     # 是否在首页显示
-    displayBackToTopInHome = true
+    displayBackToTopInHome = false
 
     # 是否在移动端显示
     displayBackToTopOnMobile = false
@@ -1250,10 +1321,10 @@ uglyURLs = false
     enableFooter = true
 
     # 是否显示
-    displayFooter = true
+    displayFooter = false
 
     # 是否在首页显示
-    displayFooterInHome = false
+    displayFooterInHome = true
 
     displayCopyleftSymbol = false
     # 是否显示版权符号（©）
@@ -1263,20 +1334,20 @@ uglyURLs = false
     displaySiteCreatedYear = true
 
     # 年份与作者之间的图标，留空（""）则无
-    iconBetweenYearAndAuthor = " "
+    iconBetweenYearAndAuthor = "heart"
     # 图标颜色
     iconColor = "#f06292"
     # 是否开启图标的跳动效果
     iconAnimation = true
 
     # 是否显示 Hugo 和 MemE 的链接
-    displayPoweredBy = false
+    displayPoweredBy = true
 
     # 是否显示站点的版权信息
     displaySiteCopyright = false
 
     # 自定义页脚（支持 Markdown）
-    customFooter = ""
+    customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
     displayBusuanziSiteUVAndPV = false
     busuanziSiteUVText = "本站访客数"
@@ -1296,7 +1367,7 @@ uglyURLs = false
     # 多语言
 
     # 是否开启多语言按钮
-    enableLangToggle = false
+    enableLangToggle = true
 
     # 是否在首页隐藏多语言按钮
     hideLangToggleInHome = false
@@ -1314,7 +1385,7 @@ uglyURLs = false
     enableHighlight = true
 
     # 是否开启竖直滚动
-    enableOverflowY = true
+    enableOverflowY = false
     # 最大高度
     maxHeight = 20
     # 单位：em
@@ -1331,7 +1402,7 @@ uglyURLs = false
     # 说明：仅对 MemE 生成的 CSS 和 JS 有效
 
     # 是否开启文件指纹
-    enableFingerprint = true
+    enableFingerprint = false
 
     # 是否开启子资源完整性验证
     enableSRI = false
@@ -1360,7 +1431,7 @@ uglyURLs = false
     # 平滑滚动
 
     # 是否开启
-    enableSmoothScroll = true
+    enableSmoothScroll = false
 
 
     ######################################
@@ -1373,7 +1444,7 @@ uglyURLs = false
     ######################################
     # Instant Page
 
-    enableInstantPage = true
+    enableInstantPage = false
     # 说明：https://github.com/instantpage/instant.page
 
 
@@ -1405,9 +1476,72 @@ uglyURLs = false
     # 404 页面
 
     # 视频封面
-    fofPoster = ""
+    fofPoster = "./images/flying-clouds-720p.jpg"
 
     # 视频地址
-    fofVideoWebm = ""
-    fofVideoMp4 = ""
+    fofVideoWebm = "/videos/flying-clouds-720p.webm"
+    fofVideoMp4 = "/videos/flying-clouds-720p.mp4"
     # 说明：视频地址可留空（""）
+
+
+    ######################################
+    # 自定义的视频标签插入辅助
+
+    enableVideoHelper = true
+
+
+
+##########################################
+# 自行添加的多语言站点配置
+
+# 中文
+[languages.zh]
+    languageName = "🇨🇳"
+    contentDir = "content/zh"
+    weight = 1
+
+# 英文
+[languages.en]
+    languageName = "🇺🇸"
+    contentDir = "content/en"
+    weight = 2
+    languageCode = "en-US"
+    hasCJKLanguage = false
+    copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
+[languages.en.taxonomies]
+    # category = "categories"
+    # tag = "tags"
+[languages.en.menu]
+    # [[languages.en.menu.home]]
+    #     pageref = "/"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "user-circle"
+    #     identifier = "about"
+    [[languages.en.menu.main]]
+        pageref = "/about/"
+        name = "about"
+        weight = 1
+        pre = "internal"
+        post = "user-circle"
+        identifier = "about"
+    [[languages.en.menu.main]]
+        weight = 2
+        identifier = "theme-switcher"
+    [[languages.en.menu.main]]
+        weight = 3
+        identifier = "lang-switcher"
+[languages.en.params]
+    homePoetry = ["In the dark night", "Longing for a light of care", "In the daylight", "Desiring for the swallow of a black hole", "’Cause curiosity—seeks for what’s in the darkness"]
+    siteDescription = "Blog of reuixiy in English."
+    listDateFormat = "January 2"
+    fontFamilyTitle = "'Amstelvar', serif"
+    fontFamilyHeadings = "'Amstelvar', serif"
+    fontFamilyBody = "'Amstelvar', serif"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    lineHeight = 1.618
+    enableJustify = false
+    enableSmallCaps = true
+    enableEmphasisPoint = false
+    enableChinesePunctuationGlyphCorrection = false
+    customFooter = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
