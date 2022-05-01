@@ -1,7 +1,8 @@
 ---
-title: "First"
-date: 2022-05-01T20:44:41+08:00
+title: "Hello"
+date: 2022-05-02T00:06:17+08:00
 draft: true
+tags: ["建站"]
 ---
 
-你好你好你好你好你好ahhahahha
+第一篇技术文章
