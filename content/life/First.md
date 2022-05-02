@@ -5,9 +5,9 @@ draft: true
 tags: ["闲"]
 ---
 
-第一篇杂谈文章 [点我](https://ipv4.qingsdz.top/about/)
-- [ ] 待测试
-- [x] 已测试
+第一篇杂谈文章 
+
+[点我](https://ipv4.qingsdz.top/about/)
 
 
 > Stay Hungry. Stay Foolish -- Steve Jobs
