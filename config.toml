@@ -259,6 +259,12 @@ uglyURLs = false
         name = "Home"
         weight = 1
         pre = "internal"
+    [[menu.links]]
+        pageref = "/tags/"
+        name = "Tags"
+        weight = 2
+        pre = "internal"
+    
 
 
 
