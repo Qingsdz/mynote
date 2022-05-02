@@ -1,0 +1,1 @@
+ssh greenvps@ipv4.qingsdz.top "cd ~/files/webpage/mynote; git pull"
