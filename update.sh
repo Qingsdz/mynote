@@ -12,3 +12,5 @@ git add .
 git commit -m "$(date "+%Y-%m-%d %H:%M:%S")"
 git push origin autosubmit
 git checkout $result
+ 
+ssh greenvps@ipv4.qingsdz.top "cd ~/files/webpage/mymote; git pull"
