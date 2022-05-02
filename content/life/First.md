@@ -19,14 +19,7 @@ int sayHello()
 }
 ```
 
-key | value
---- | ---
-long key | long测试中文
 
-美观版本：
-| key      | value       |
-|----------|-------------|
-| long key | long测试中文 |
 
 
 

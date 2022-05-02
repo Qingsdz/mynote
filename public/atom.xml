@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Qingsdz&#39;s Blog</title>
     <subtitle type="html">wqc的发疯日常</subtitle>
-    <updated>2022-05-03T01:08:36&#43;08:00</updated>
+    <updated>2022-05-03T01:12:36&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,16 +20,17 @@
             <title type="text">群论的复习(预习)</title>
             <link rel="alternate" type="text/html" href="https://example.com/tech/first/" />
             <id>https://example.com/tech/first/</id>
-            <updated>2022-05-02T22:41:26&#43;08:00</updated>
+            <updated>2022-05-03T01:11:30&#43;08:00</updated>
             <published>2022-05-02T00:06:17&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
                     <uri>https://ipv4.qingsdz.com/</uri>
                     <email>greenjujubewqc@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！ 课……</summary>
             
                 <content type="html">&lt;p&gt;后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！&lt;/p&gt;
+&lt;p&gt;课上没听懂,甚至高代中就没懂的商群现在在wiki百科上弄懂了&lt;/p&gt;
 </content>
             
             
@@ -72,14 +73,14 @@
             <title type="text">你好</title>
             <link rel="alternate" type="text/html" href="https://example.com/life/first/" />
             <id>https://example.com/life/first/</id>
-            <updated>2022-05-02T23:16:15&#43;08:00</updated>
+            <updated>2022-05-03T01:12:13&#43;08:00</updated>
             <published>2022-05-01T20:44:53&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
                     <uri>https://ipv4.qingsdz.com/</uri>
                     <email>greenjujubewqc@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">第一篇杂谈文章 点我 待测试 已测试 Stay Hungry. Stay Foolish -- Steve Jobs 1 2 3 4 int sayHello() { printf(&amp;#34;Hello!\n&amp;#34;); // hello everyone } key value long key long……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">第一篇杂谈文章 点我 待测试 已测试 Stay Hungry. Stay Foolish -- Steve Jobs 1 2 3 4 int sayHello() { printf(&amp;#34;Hello!\n&amp;#34;); // hello everyone }</summary>
             
                 <content type="html">&lt;p&gt;第一篇杂谈文章 &lt;a href=&#34;https://ipv4.qingsdz.top/about/&#34;&gt;点我&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -103,36 +104,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;key&lt;/th&gt;
-&lt;th&gt;value&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;long key&lt;/td&gt;
-&lt;td&gt;long测试中文&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;美观版本：&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;key&lt;/th&gt;
-&lt;th&gt;value&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;long key&lt;/td&gt;
-&lt;td&gt;long测试中文&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</content>
+&lt;/div&gt;</content>
             
             
             

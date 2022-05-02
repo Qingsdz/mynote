@@ -8,6 +8,7 @@ function obtain_git_branch {
 result=`obtain_git_branch`
 
 git checkout autosubmit
+git merge $result
 git add .
 git commit -m "$(date "+%Y-%m-%d %H:%M:%S")"
 git push origin autosubmit
