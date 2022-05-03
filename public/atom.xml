@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Qingsdz&#39;s Blog</title>
     <subtitle type="html">wqc的发疯日常</subtitle>
-    <updated>2022-05-03T01:26:43&#43;08:00</updated>
+    <updated>2022-05-03T23:34:29&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Error</title>
             <link rel="alternate" type="text/html" href="https://example.com/tech/error/" />
             <id>https://example.com/tech/error/</id>
-            <updated>2022-05-03T01:25:44&#43;08:00</updated>
+            <updated>2022-05-03T01:27:53&#43;08:00</updated>
             <published>2022-05-03T01:25:02&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
@@ -56,19 +56,21 @@
     
         <entry>
             <title type="text">群论的复习(预习)</title>
-            <link rel="alternate" type="text/html" href="https://example.com/tech/first/" />
-            <id>https://example.com/tech/first/</id>
-            <updated>2022-05-03T01:24:26&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://example.com/life/first/" />
+            <id>https://example.com/life/first/</id>
+            <updated>2022-05-03T23:34:20&#43;08:00</updated>
             <published>2022-05-02T00:06:17&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
                     <uri>https://ipv4.qingsdz.com/</uri>
                     <email>greenjujubewqc@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！ 课……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">第一篇杂谈文章 点我 后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可……</summary>
             
-                <content type="html">&lt;p&gt;后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！&lt;/p&gt;
-&lt;p&gt;课上没听懂,甚至高代中就没懂的商群现在在Wiki百科上弄懂了&lt;/p&gt;
+                <content type="html">&lt;p&gt;第一篇杂谈文章 &lt;a href=&#34;https://ipv4.qingsdz.top/about/&#34;&gt;点我&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！&lt;/p&gt;
+&lt;p&gt;课上没听懂,甚至高代中就没懂的商群现在在Wiki百科上弄懂了.&lt;/p&gt;
+&lt;p&gt;2022-5-3 传来喜报, 近世代数课堂测试被推到了周六.&lt;/p&gt;
 </content>
             
             
@@ -80,7 +82,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/tech/" term="tech" label="tech" />
+                            <category scheme="https://example.com/life/" term="life" label="life" />
                         
                     
                 
@@ -108,38 +110,19 @@
         </entry>
     
         <entry>
-            <title type="text">你好</title>
-            <link rel="alternate" type="text/html" href="https://example.com/life/first/" />
-            <id>https://example.com/life/first/</id>
-            <updated>2022-05-03T01:24:42&#43;08:00</updated>
-            <published>2022-05-01T20:44:53&#43;08:00</published>
+            <title type="text"></title>
+            <link rel="alternate" type="text/html" href="https://example.com/tech/first/" />
+            <id>https://example.com/tech/first/</id>
+            <updated>2022-05-03T23:33:49&#43;08:00</updated>
+            <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
                     <name>qingsdz</name>
                     <uri>https://ipv4.qingsdz.com/</uri>
                     <email>greenjujubewqc@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">第一篇杂谈文章 点我 Stay Hungry. Stay Foolish -- Steve Jobs 1 2 3 4 int sayHello() { printf(&amp;#34;Hello!\n&amp;#34;); // hello everyone }</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
             
-                <content type="html">&lt;p&gt;第一篇杂谈文章&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://ipv4.qingsdz.top/about/&#34;&gt;点我&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Stay Hungry. Stay Foolish -- Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;sayHello&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello!&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// hello everyone
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
+                <content type="html"></content>
             
             
             
@@ -150,7 +133,7 @@
                     
                     
                         
-                            <category scheme="https://example.com/life/" term="life" label="life" />
+                            <category scheme="https://example.com/tech/" term="tech" label="tech" />
                         
                     
                 
@@ -158,14 +141,6 @@
             
             
                 
-                    
-                        
-                            
-                            
-                            
-                                <category scheme="https://example.com/tags/%E9%97%B2/" term="闲" label="闲" />
-                            
-                        
                     
                 
             

@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 03 May 2022 01:26:43 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 03 May 2022 23:34:29 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -65,16 +65,18 @@
         
             <item>
                 <title>群论的复习(预习)</title>
-                <link>https://example.com/tech/first/</link>
-                <guid isPermaLink="true">https://example.com/tech/first/</guid>
+                <link>https://example.com/life/first/</link>
+                <guid isPermaLink="true">https://example.com/life/first/</guid>
                 <pubDate>Mon, 02 May 2022 00:06:17 &#43;0800</pubDate>
                 
                     <author>greenjujubewqc@gmail.com (qingsdz)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！&lt;/p&gt;
-&lt;p&gt;课上没听懂,甚至高代中就没懂的商群现在在Wiki百科上弄懂了&lt;/p&gt;
+                    <description>&lt;p&gt;第一篇杂谈文章 &lt;a href=&#34;https://ipv4.qingsdz.top/about/&#34;&gt;点我&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！&lt;/p&gt;
+&lt;p&gt;课上没听懂,甚至高代中就没懂的商群现在在Wiki百科上弄懂了.&lt;/p&gt;
+&lt;p&gt;2022-5-3 传来喜报, 近世代数课堂测试被推到了周六.&lt;/p&gt;
 </description>
                 
                 
@@ -86,7 +88,7 @@
                         
                         
                             
-                                <category domain="https://example.com/tech/">tech</category>
+                                <category domain="https://example.com/life/">life</category>
                             
                         
                     
@@ -114,35 +116,16 @@
             </item>
         
             <item>
-                <title>你好</title>
-                <link>https://example.com/life/first/</link>
-                <guid isPermaLink="true">https://example.com/life/first/</guid>
-                <pubDate>Sun, 01 May 2022 20:44:53 &#43;0800</pubDate>
+                <title></title>
+                <link>https://example.com/tech/first/</link>
+                <guid isPermaLink="true">https://example.com/tech/first/</guid>
+                <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
                 
                     <author>greenjujubewqc@gmail.com (qingsdz)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;第一篇杂谈文章&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://ipv4.qingsdz.top/about/&#34;&gt;点我&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Stay Hungry. Stay Foolish -- Steve Jobs&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;sayHello&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Hello!&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;// hello everyone
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
+                    <description></description>
                 
                 
                 
@@ -153,7 +136,7 @@
                         
                         
                             
-                                <category domain="https://example.com/life/">life</category>
+                                <category domain="https://example.com/tech/">tech</category>
                             
                         
                     
@@ -161,14 +144,6 @@
                 
                 
                     
-                        
-                            
-                                
-                                
-                                
-                                    <category domain="https://example.com/tags/%E9%97%B2/">闲</category>
-                                
-                            
                         
                     
                 

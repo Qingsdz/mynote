@@ -1,24 +1,19 @@
 ---
-title: "你好"
-date: 2022-05-01T20:44:53+08:00
+title: "群论的复习(预习)"
+date: 2022-05-02T00:06:17+08:00
 draft: true
-tags: ["闲"]
+tags: ["近世代数", "群论"]
+dropCap: true
+mathjax: true
 ---
-
-第一篇杂谈文章 
-
-[点我](https://ipv4.qingsdz.top/about/)
+第一篇杂谈文章 [点我](https://ipv4.qingsdz.top/about/)
 
 
-> Stay Hungry. Stay Foolish -- Steve Jobs
+后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！
 
-```c
-int sayHello()
-{
-    printf("Hello!\n"); // hello everyone
-}
-```
+课上没听懂,甚至高代中就没懂的商群现在在Wiki百科上弄懂了.
 
+2022-5-3 传来喜报, 近世代数课堂测试被推到了周六.
 
 
 
