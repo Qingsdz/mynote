@@ -252,6 +252,11 @@ uglyURLs = false
         name = "QQ"
         weight = 3
         pre = "external"
+    [[menu.socials]]
+        url = "mailto:greenjujubewqc@gmail.com"
+        name = "Email"
+        weight = 4
+        pre = "external"
 
     ## 链接栏
     [[menu.links]]
