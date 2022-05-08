@@ -23,10 +23,83 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 09 May 2022 01:29:06 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 09 May 2022 02:28:58 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>环与域</title>
+                <link>https://example.com/tech/%E7%8E%AF%E4%B8%8E%E5%9F%9F/</link>
+                <guid isPermaLink="true">https://example.com/tech/%E7%8E%AF%E4%B8%8E%E5%9F%9F/</guid>
+                <pubDate>Mon, 09 May 2022 02:04:03 &#43;0800</pubDate>
+                
+                    <author>greenjujubewqc@gmail.com (qingsdz)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h2 id=&#34;环与域&#34;&gt;环与域&lt;/h2&gt;
+&lt;h3 id=&#34;环的定义&#34;&gt;环的定义&lt;/h3&gt;
+&lt;p&gt;定义 : $R$ 是非空集合 , 在 $R$ 上定义代数运算 $+$ 和 $\cdot$ , 满足 :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$\{R, +\}$ 是 $Abel$ 群 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\{R, \cdot\}$ 是半群 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\forall A, B, C \in R , s.t. c(a+b) = ca+cb$ 和 $(a+b)c = ac+ bc$&lt;/p&gt;
+&lt;p&gt;则称 $\{R, +, \cdot\}$ 是环 . 若 $|R| \leq +\infty$ , 则称 $R$ 是有限环 . 若 $\cdot$ 满足交换律 , 则称 $R$ 是交换环 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;例子&#34;&gt;例子&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;$R = \mathcal{Z, Q, R, C}$ 时 , $\left\{ R, +\right\}$ 是环 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\{\mathcal{Z}_n, +, \cdot\}$ 是环&lt;/p&gt;
+&lt;p&gt;证明 :&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                
+                
+                
+                    
+                    
+                    
+                        
+                        
+                        
+                            
+                                <category domain="https://example.com/tech/">tech</category>
+                            
+                        
+                    
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/%E8%BF%91%E4%B8%96%E4%BB%A3%E6%95%B0/">近世代数</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/%E7%8E%AF%E4%B8%8E%E5%9F%9F/">环与域</category>
+                                
+                            
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Error</title>
@@ -87,10 +160,10 @@
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;第一篇杂谈文章 &lt;a href=&#34;https://ipv4.qingsdz.top/about/&#34;&gt;点我&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;后天考近世代数，打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习！&lt;/p&gt;
-&lt;p&gt;课上没听懂,甚至高代中就没懂的商群现在在Wiki百科上弄懂了.&lt;/p&gt;
-&lt;p&gt;2022-5-3 传来喜报, 近世代数课堂测试被推到了周六.&lt;/p&gt;
+                    <description>&lt;p&gt;后天考近世代数 , 打开Wiki之后发现简洁又明了，期待Wiki百科可以帮我好好复习 ！&lt;/p&gt;
+&lt;p&gt;课上没听懂 , 甚至高代中就没懂的商群现在在Wiki百科上弄懂了.&lt;/p&gt;
+&lt;p&gt;2022-5-3 传来喜报 , 近世代数课堂测试被推到了周六.&lt;/p&gt;
+&lt;p&gt;2022-5-7 传来喜报 , 考试坐一起.&lt;/p&gt;
 </description>
                 
                 
