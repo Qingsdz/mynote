@@ -11,3 +11,4 @@ dropCap: false
 本人一名HFUTer,  深信着任天堂就是世界的主宰,  同时
 
 ![muli](/images/muli.png)
+
