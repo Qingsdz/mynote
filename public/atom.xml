@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Qingsdz&#39;s Blog</title>
     <subtitle type="html">wqc的发疯日常</subtitle>
-    <updated>2022-05-03T23:34:29&#43;08:00</updated>
+    <updated>2022-05-08T17:01:51&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">Error</title>
             <link rel="alternate" type="text/html" href="https://example.com/tech/error/" />
             <id>https://example.com/tech/error/</id>
-            <updated>2022-05-03T01:27:53&#43;08:00</updated>
+            <updated>2022-05-08T16:04:30&#43;08:00</updated>
             <published>2022-05-03T01:25:02&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
@@ -50,6 +50,20 @@
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/ssh/" term="ssh" label="ssh" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://example.com/tags/%E6%8A%A5%E9%94%99/" term="报错" label="报错" />
+                            
+                        
+                    
                 
             
         </entry>
@@ -58,7 +72,7 @@
             <title type="text">群论的复习(预习)</title>
             <link rel="alternate" type="text/html" href="https://example.com/life/first/" />
             <id>https://example.com/life/first/</id>
-            <updated>2022-05-03T23:34:20&#43;08:00</updated>
+            <updated>2022-05-03T23:34:36&#43;08:00</updated>
             <published>2022-05-02T00:06:17&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
@@ -104,43 +118,6 @@
                                 <category scheme="https://example.com/tags/%E7%BE%A4%E8%AE%BA/" term="群论" label="群论" />
                             
                         
-                    
-                
-            
-        </entry>
-    
-        <entry>
-            <title type="text"></title>
-            <link rel="alternate" type="text/html" href="https://example.com/tech/first/" />
-            <id>https://example.com/tech/first/</id>
-            <updated>2022-05-03T23:33:49&#43;08:00</updated>
-            <published>0001-01-01T00:00:00&#43;00:00</published>
-            <author>
-                    <name>qingsdz</name>
-                    <uri>https://ipv4.qingsdz.com/</uri>
-                    <email>greenjujubewqc@gmail.com</email>
-                    </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
-            
-                <content type="html"></content>
-            
-            
-            
-                
-                
-                
-                    
-                    
-                    
-                        
-                            <category scheme="https://example.com/tech/" term="tech" label="tech" />
-                        
-                    
-                
-            
-            
-            
-                
                     
                 
             

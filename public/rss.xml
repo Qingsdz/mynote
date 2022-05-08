@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 03 May 2022 23:34:29 &#43;0800</lastBuildDate>
+        <lastBuildDate>Sun, 08 May 2022 17:01:51 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -58,6 +58,20 @@
                 
                 
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/ssh/">ssh</category>
+                                
+                            
+                                
+                                
+                                
+                                    <category domain="https://example.com/tags/%E6%8A%A5%E9%94%99/">报错</category>
+                                
+                            
                         
                     
                 
@@ -110,40 +124,6 @@
                                     <category domain="https://example.com/tags/%E7%BE%A4%E8%AE%BA/">群论</category>
                                 
                             
-                        
-                    
-                
-            </item>
-        
-            <item>
-                <title></title>
-                <link>https://example.com/tech/first/</link>
-                <guid isPermaLink="true">https://example.com/tech/first/</guid>
-                <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-                
-                    <author>greenjujubewqc@gmail.com (qingsdz)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description></description>
-                
-                
-                
-                    
-                    
-                    
-                        
-                        
-                        
-                            
-                                <category domain="https://example.com/tech/">tech</category>
-                            
-                        
-                    
-                
-                
-                
-                    
                         
                     
                 
