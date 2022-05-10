@@ -1,5 +1,4 @@
 #!/bin/zsh
-./1.sh
 hugo -D
 
 function obtain_git_branch {
