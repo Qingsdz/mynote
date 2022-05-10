@@ -9,8 +9,48 @@
 	"Left parenthesis": {
 	 	"prefix": ["bpar", "bigparenthesis", "bp"],
 	 	"body": [
-	 		"\\{ ${1:element} \\\\} $0",
+	 		"\\{\\;${1:element}\\;\\\\} $0",
 	 	],
 	 	"description": "{"
+	},
+
+	"mathcal": {
+		"prefix": ["mcal", "mathcal"],
+		"body": [
+			"\\;\\mathcal{${1:element}} \\;$0",
+		],
+		"description": "R"
+   },
+
+   "forall": {
+		"prefix": ["fa", "forall"],
+		"body": [
+			"\\forall",
+		],
+		"description": "forall"
+	},
+
+	"suchthat": {
+		"prefix": ["st", "suchthat"],
+		"body": [
+			"\\;\\mathrm{ s.t. }\\;",
+		],
+		"description": "suchthat"
+	},
+
+	"gongshi" :{
+		"prefix": ["gongshi", "gs"],
+		"body": [
+			" $${1:element}$ $0",
+		],
+		"description": "gongshi"		
+	},
+
+	"douhao" :{
+		"prefix": ["dou", ","],
+		"body": [
+			"\\;,\\;",
+		],
+		"description": "douhao"		
 	}
 }

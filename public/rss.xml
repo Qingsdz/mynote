@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 09 May 2022 02:28:58 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 10 May 2022 23:36:21 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -50,18 +50,14 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;$\forall A, B, C \in R , s.t. c(a+b) = ca+cb$ 和 $(a+b)c = ac+ bc$&lt;/p&gt;
-&lt;p&gt;则称 $\{R, +, \cdot\}$ 是环 . 若 $|R| \leq +\infty$ , 则称 $R$ 是有限环 . 若 $\cdot$ 满足交换律 , 则称 $R$ 是交换环 .&lt;/p&gt;
+&lt;p&gt;则称 ${R, +, \cdot}$ 是环 . 若 $|R| \leq +\infty$ , 则称 $R$ 是有限环 . 若 $\cdot$ 满足交换律 , 则称 $R$ 是交换环 .&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;例子&#34;&gt;例子&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;$R = \mathcal{Z, Q, R, C}$ 时 , $\left\{ R, +\right\}$ 是环 .&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;$\{\mathcal{Z}_n, +, \cdot\}$ 是环&lt;/p&gt;
-&lt;p&gt;证明 :&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;$R = \mathcal{Z, Q, R, C}$ 时 , $\{ R, +\}$ 是环 .&lt;/li&gt;
+&lt;li&gt;$\{\mathcal{Z}_n, +, \cdot\}$ 是环
+证明 :   $\mathcal{R\;,\;R\;,\;R} test$ test&lt;/li&gt;
 &lt;/ol&gt;
 </description>
                 
