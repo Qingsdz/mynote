@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Qingsdz&#39;s Blog</title>
     <subtitle type="html">wqc的发疯日常</subtitle>
-    <updated>2022-05-10T23:36:21&#43;08:00</updated>
+    <updated>2022-05-10T23:37:31&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">环与域</title>
             <link rel="alternate" type="text/html" href="https://example.com/tech/%E7%8E%AF%E4%B8%8E%E5%9F%9F/" />
             <id>https://example.com/tech/%E7%8E%AF%E4%B8%8E%E5%9F%9F/</id>
-            <updated>2022-05-10T23:36:20&#43;08:00</updated>
+            <updated>2022-05-10T23:37:29&#43;08:00</updated>
             <published>2022-05-09T02:04:03&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
@@ -48,7 +48,8 @@
 &lt;ol&gt;
 &lt;li&gt;$R = \mathcal{Z, Q, R, C}$ 时 , $\{ R, +\}$ 是环 .&lt;/li&gt;
 &lt;li&gt;$\{\mathcal{Z}_n, +, \cdot\}$ 是环
-证明 :   $\mathcal{R\;,\;R\;,\;R} test$ test&lt;/li&gt;
+证明 :   $\mathcal{R\;,\;R\;,\;R} test$ test
+$element$&lt;/li&gt;
 &lt;/ol&gt;
 </content>
             
@@ -92,7 +93,7 @@
             <title type="text">Error</title>
             <link rel="alternate" type="text/html" href="https://example.com/tech/error/" />
             <id>https://example.com/tech/error/</id>
-            <updated>2022-05-10T23:36:20&#43;08:00</updated>
+            <updated>2022-05-10T23:37:29&#43;08:00</updated>
             <published>2022-05-03T01:25:02&#43;08:00</published>
             <author>
                     <name>qingsdz</name>

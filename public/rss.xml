@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 10 May 2022 23:36:21 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 10 May 2022 23:37:31 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
@@ -57,7 +57,8 @@
 &lt;ol&gt;
 &lt;li&gt;$R = \mathcal{Z, Q, R, C}$ 时 , $\{ R, +\}$ 是环 .&lt;/li&gt;
 &lt;li&gt;$\{\mathcal{Z}_n, +, \cdot\}$ 是环
-证明 :   $\mathcal{R\;,\;R\;,\;R} test$ test&lt;/li&gt;
+证明 :   $\mathcal{R\;,\;R\;,\;R} test$ test
+$element$&lt;/li&gt;
 &lt;/ol&gt;
 </description>
                 
