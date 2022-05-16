@@ -52,5 +52,21 @@
 			"\\;,\\;",
 		],
 		"description": "douhao"		
+	},
+
+	"fenshi" :{
+		"prefix": ["fenshi", "fs", "frac"],
+		"body": [
+			"\\frac{$1}{$2} $3",
+		],
+		"description": "fenshi"		
+	},
+
+	"sum" :{
+		"prefix": ["sum", "qiuhe"],
+		"body": [
+			"\\sum_{$1}^{$2} $3",
+		],
+		"description": "求和符号"		
 	}
 }
