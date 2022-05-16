@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Qingsdz&#39;s Blog</title>
     <subtitle type="html">wqc的发疯日常</subtitle>
-    <updated>2022-05-16T16:49:39&#43;08:00</updated>
+    <updated>2022-05-16T16:50:43&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">插值多项式</title>
             <link rel="alternate" type="text/html" href="https://example.com/tech/%E6%8F%92%E5%80%BC%E5%A4%9A%E9%A1%B9%E5%BC%8F/" />
             <id>https://example.com/tech/%E6%8F%92%E5%80%BC%E5%A4%9A%E9%A1%B9%E5%BC%8F/</id>
-            <updated>2022-05-16T16:47:00&#43;08:00</updated>
+            <updated>2022-05-16T16:50:35&#43;08:00</updated>
             <published>2022-05-16T16:08:40&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
@@ -38,6 +38,7 @@ $$ = \frac{(x-x_0)}{(x_i - x_0)}\frac{(x-x_{i-1})}{(x_i - x_{i-1})}\cdots \frac{
 &lt;p&gt;就可以使用插值公式&lt;/p&gt;
 &lt;p&gt;$$\;\mathcal{P}(x) \; = \sum_{i = 0}^{n} f(x_i)L_i(x)$$&lt;/p&gt;
 &lt;p&gt;进行插值。&lt;/p&gt;
+&lt;p&gt;为了更加有数学味道（为了更好的让外行看不懂），我们可以提取一下多项式基的公共部分，让&lt;/p&gt;
 </content>
             
             
@@ -92,7 +93,7 @@ $$ = \frac{(x-x_0)}{(x_i - x_0)}\frac{(x-x_{i-1})}{(x_i - x_{i-1})}\cdots \frac{
             <title type="text">环与域</title>
             <link rel="alternate" type="text/html" href="https://example.com/tech/%E7%8E%AF%E4%B8%8E%E5%9F%9F/" />
             <id>https://example.com/tech/%E7%8E%AF%E4%B8%8E%E5%9F%9F/</id>
-            <updated>2022-05-16T16:47:00&#43;08:00</updated>
+            <updated>2022-05-16T16:50:35&#43;08:00</updated>
             <published>2022-05-09T02:04:03&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
@@ -165,7 +166,7 @@ $element$&lt;/li&gt;
             <title type="text">Error</title>
             <link rel="alternate" type="text/html" href="https://example.com/tech/error/" />
             <id>https://example.com/tech/error/</id>
-            <updated>2022-05-16T16:47:00&#43;08:00</updated>
+            <updated>2022-05-16T16:50:35&#43;08:00</updated>
             <published>2022-05-03T01:25:02&#43;08:00</published>
             <author>
                     <name>qingsdz</name>
